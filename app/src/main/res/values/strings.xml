@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Danciben</string>
+    <string name="action_search"/>
+    <string name="action_insert"/>
+    <string name="action_delete"/>
+    <string name="action_update"/>
+</resources>
