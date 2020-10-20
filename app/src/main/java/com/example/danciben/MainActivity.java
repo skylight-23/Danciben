@@ -132,12 +132,12 @@ public class MainActivity extends AppCompatActivity {
         //查询
         Cursor c = db.query(
                 Words.Word.TABLE_NAME,  // The table to query
-                projection,                               // The columns to return
-                null,                                // The columns for the WHERE clause
-                null,                            // The values for the WHERE clause
-                null,                                     // don't group the rows
-                null,                                     // don't filter by row groups
-                sortOrder                                 // The sort order
+                projection,
+                null,
+                null,
+                null,
+                null,
+                sortOrder
         );
 
         return ConvertCursor2List(c);
@@ -384,8 +384,8 @@ public class MainActivity extends AppCompatActivity {
 
                     }
                 })
-                //取消按钮及其动作
-                .setNegativeButton("取消", new DialogInterface.OnClickListener() {
+
+                .setNegativeButton("取消", new DialogInterface.OnClickListener() {//取消按钮及其动作
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
 

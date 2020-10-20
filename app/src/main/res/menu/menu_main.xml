@@ -8,7 +8,7 @@
         app:showAsAction="never"
         android:orderInCategory="100"
         />
-    <item android:title="插入"
+    <item android:title="新增"
         android:id="@+id/action_insert"
         app:showAsAction="never"
         android:orderInCategory="100"/>
